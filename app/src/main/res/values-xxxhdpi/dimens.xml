@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <integer name="bitmap_width">1000</integer>
+    <integer name="bitmap_height">250</integer>
+    <integer name="clock_text_size">220</integer>
+    <integer name="draw_text_width">240</integer>
+    <integer name="draw_text_height">180</integer>
+    <dimen name="draw_bottom_text_size">12dp</dimen>
+    <dimen name="switch_margintop">0dp</dimen>
+    <dimen name="margintop_for_a4">0dp</dimen>
+    <dimen name="switch_for_a4">0dp</dimen>
+    <dimen name="title_margin_top_for_a4">0dp</dimen>
+</resources>

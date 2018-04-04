@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="24dp"
+    android:background="@drawable/background"
+    tools:context="${relativePackage}.${activityClass}" >
+    <TextView
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/title_margin_top_for_a4"
+        android:text="@string/add_city_title"
+        style="@style/add_city_title_style" />
+    <LinearLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_text_height"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="@dimen/add_city_edit_margin_left"
+        android:layout_marginRight="@dimen/add_city_search_margin_right"
+        android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/city_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:layout_gravity="center_vertical"
+            android:singleLine="true"
+            android:paddingStart="@dimen/add_city_text_padding_left"
+            android:background="@drawable/add_city_bg_normal"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColorHint="@color/hint_text_color"
+            android:hint="@string/city_name_hint" />
+
+        <ImageButton
+            android:id="@+id/search_city"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/search"
+            android:background="#00000000" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/city_list"
+        android:layout_below="@id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/line"
+        android:dividerHeight="0.5dp"
+        android:layout_marginLeft="@dimen/add_city_list_margin_left"
+        android:layout_marginRight="@dimen/add_city_list_margin_right"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/loading_progress_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+        <ProgressBar
+            android:indeterminateDrawable="@drawable/progressbar"
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

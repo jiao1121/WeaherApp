@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal" >
+
+    <LinearLayout
+        android:id="@+id/menu_auto_6h"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_items_height"
+        android:layout_marginEnd="@dimen/sub_menu_item_marginEnd"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/menu_check_auto_6h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/sub_menu_marginStart"
+            android:src="@drawable/menu_checkbox_img" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/expand_view_marginLeft"
+            android:textColor="@color/text_color"
+            android:text="@string/menu_auto_refresh_6h"
+            android:textSize="@dimen/expand_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_auto_12h"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_items_height"
+        android:layout_marginEnd="@dimen/sub_menu_item_marginEnd"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/menu_check_auto_12h"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="@dimen/sub_menu_marginStart"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_checkbox_img" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_auto_refresh_12h"
+            android:paddingLeft="@dimen/expand_view_marginLeft"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/expand_text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_auto_24h"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_items_height"
+        android:layout_marginEnd="@dimen/sub_menu_item_marginEnd"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/menu_check_auto_24h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/sub_menu_marginStart"
+            android:src="@drawable/menu_checkbox_img" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_auto_refresh_24h"
+            android:paddingLeft="@dimen/expand_view_marginLeft"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/expand_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

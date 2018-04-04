@@ -1,0 +1,40 @@
+百度地图SHA1
+密码baidusha1
+
+Enter keystore password:
+
+Keystore type: JKS
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: com-android-wty
+Creation date: Dec 26, 2017
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=com-android-wty, OU=com-android-wty, O=com-android-wty, L=shenzhen, ST=guangdong, C=cn
+Issuer: CN=com-android-wty, OU=com-android-wty, O=com-android-wty, L=shenzhen, ST=guangdong, C=cn
+Serial number: 65e0d441
+Valid from: Tue Dec 26 16:14:34 CST 2017 until: Sat Dec 20 16:14:34 CST 2042
+Certificate fingerprints:
+        MD5:  B4:61:3D:19:44:47:68:A6:59:F0:FA:8E:B9:B7:00:31
+        SHA1: 8A:AF:08:FB:F1:75:21:98:19:E4:B6:5C:DF:01:61:8B:7A:DA:DC:9C
+        SHA256: 25:73:BB:30:55:F2:36:9A:7F:2A:25:58:7E:28:C2:2A:11:AA:FF:B6:7E:94:44:B4:A5:78:45:AA:1F:F2:EE:C4
+        Signature algorithm name: SHA256withRSA
+        Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: CC 04 4E 6D 00 F9 DD 44   94 DA E0 3B 9C C8 BC CA  ..Nm...D...;....
+0010: 9D A5 11 3B                                        ...;
+]
+]
+
+
+
+*******************************************
+*******************************************
